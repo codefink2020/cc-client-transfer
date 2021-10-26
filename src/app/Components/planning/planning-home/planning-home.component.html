@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+    <div>
+      <a mat-button [routerLink]="'overview'">Planning Overview</a>
+      <a mat-button [routerLink]="'eventlijst'">Evenementen Lijst</a>
+      <a mat-button [routerLink]="'nieuwevent'">Evenement aanmaken</a>
+      <a mat-button [routerLink]="'/contacts'"> Vrijwilligers Lijst</a>
+      <a mat-button [routerLink]="'/create-contact'"> Vrijwilliger wijzigen</a>
+      <a mat-button [routerLink]="'/activities'"> Band Lijst</a>
+      <a mat-button [routerLink]="'/create-activity'">Statistiek</a>
+    </div>
+</mat-toolbar>
+<router-outlet></router-outlet>
